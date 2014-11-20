@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ingfuentes.guadalajaracompanies.AddCompany"
+    android:orientation="vertical"
+    android:background="@color/bgColor">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loHeader"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/txtTitle"
+            android:id="@+id/addActivityTitle"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/fontColor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/txtCounter"
+            android:layout_gravity="end"
+            android:textColor="@color/fontColor"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txtCompanyName"
+        android:id="@+id/txtCompanyName"
+        android:textColor="@color/fontColor"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTxtCompanyName"
+        android:inputType="text"
+        android:textColor="@color/fontColor"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txtCompanyGiro"
+        android:id="@+id/txtCompanyGiro"
+        android:textColor="@color/fontColor"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTxtGiro"
+        android:inputType="text"
+        android:textColor="@color/fontColor"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imgCompany"
+        android:src="@drawable/baymax"
+        android:contentDescription="@string/desc"
+        android:layout_gravity="center"
+        android:onClick="imgGallery"/>
+
+    <Button
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/btnAdd"
+       android:id="@+id/btnAdd"
+       android:onClick="addCounter"
+       android:background="@color/bgBtn"
+       android:textColor="@color/fontColor"/>
+
+
+
+</LinearLayout>

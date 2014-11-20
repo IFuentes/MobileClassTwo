@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GuadalajaraCompanies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_company">AddCompany</string>
+    <string name="title_activity_view_companies">ViewCompanies</string>
+    <string name="btnAdd">Agregar nueva empresa</string>
+    <string name="txtCompanyName">Empresa</string>
+    <string name="txtCompanyGiro">Giro</string>
+    <string name="txtTitle">AGREGAR EMPRESAS</string>
+    <string name="desc">Some image description</string>
+    <string name="txtTitleView2">EMPRESAS DE GUADALAJARA</string>
+    <string name="btnMainAdd">AGREGAR</string>
+    <string name="btnMainView">VER</string>
+    <color name="bgColor">#ff2d8be7</color>
+    <color name="fontColor">#fff</color>
+    <color name="bgBtn">#ff07215a</color>
+
+
+
+</resources>
